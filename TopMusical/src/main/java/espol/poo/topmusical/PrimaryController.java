@@ -58,7 +58,7 @@ public class PrimaryController {
 
 
     private void mostrarHistorial(Cancion c) {
-        lblTitulo.setText(c.getCantante() + " - " + c.getTitulo());
+        lblTitulo.setText(c.getCantante() + " - nuevo" + c.getTitulo());
 
         try {
             Image img = new Image(new FileInputStream("img/" + c.getImagen()), 100, 100, true, true);
